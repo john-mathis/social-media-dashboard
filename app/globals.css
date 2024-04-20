@@ -2,32 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+:root{
+--LimeGreen: hsl(163, 72%, 41%);
+--BrightRed: hsl(356, 69%, 56%);
+--Facebook: hsl(208, 92%, 53%);
+--Twitter: hsl(203, 89%, 53%)
+--Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+--YouTube: hsl(348, 97%, 39%);
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Dark theme */
+--Toggle-dt: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+--Very-Dark-Blue-dt: hsl(230, 17%, 14%);
+--Very-Dark-Blue-dt : hsl(232, 19%, 15%);
+--Dark-Desaturated-Blue-dt: hsl(228, 28%, 20%);
+--Desaturated-Blue-dt: hsl(228, 34%, 66%);
+
+/* Light theme */
+--Toggle-lt: hsl(230, 22%, 74%);
+--White: hsl(0, 0%, 100%);
+--Very-Pale-Blue: hsl(225, 100%, 98%);
+--Light : hsl(227, 47%, 96%);
+--Dark-Grayish-Blue: hsl(228, 12%, 44%);
 }
