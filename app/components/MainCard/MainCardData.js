@@ -4,9 +4,6 @@ export default MainData = {
     username: "@nathanf",
     followers: "1987",
     engagement: 12,
-    views: 87,
-    percentage: "3%",
-    likes: 52,
   },
   twitter: {
     img: "",
@@ -23,7 +20,7 @@ export default MainData = {
   youtube: {
     img: "",
     username: "@realnathanf",
-    followers: "11k",
-    engagement: 1099,
+    followers: "8239",
+    engagement: -144,
   },
 };
