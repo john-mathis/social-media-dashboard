@@ -1,9 +1,10 @@
 import Image from "next/image";
+import MainCard from "./components/MainCard/MainCard";
 
 export default function Home() {
   return (
     <main>
-      <p>Hello World</p>
+      <MainCard />
     </main>
   );
 }
