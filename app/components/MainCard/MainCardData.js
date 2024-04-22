@@ -1,4 +1,4 @@
-export default MainData = {
+const MainData = {
   facebook: {
     img: "",
     username: "@nathanf",
@@ -24,3 +24,5 @@ export default MainData = {
     engagement: -144,
   },
 };
+
+export default MainData;
