@@ -1,28 +1,33 @@
-const MainData = {
-  facebook: {
+const MainData = [
+  // Facebook
+  {
     img: "",
     username: "@nathanf",
     followers: "1987",
     engagement: 12,
   },
-  twitter: {
+  // Twitter
+  {
     img: "",
     username: "@nathanf",
     followers: "1044",
     engagement: 99,
   },
-  instagram: {
+  // Instagram
+  {
     img: "",
     username: "@realnathanf",
     followers: "11k",
     engagement: 1099,
   },
-  youtube: {
+  // YouTube
+  {
     img: "",
     username: "@realnathanf",
     followers: "8239",
     engagement: -144,
   },
-};
+  ,
+];
 
 export default MainData;
